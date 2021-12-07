@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mainstyle.css">
+<style type="text/css">
+	/* Container needed to position the button. Adjust the width as needed */
+	.container {
+		width: 40%;
+		overflow: hidden;
+		position: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+	}
+	/* Three image containers (use 25% for four, and 50% for two, etc) */
+	.column {
+		float: left;
+		width: 33.33%;
+		padding: 5px;
+		text-align: center;
+	}
+
+	/* Clear floats after image containers */
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	.row {
+		display: flex;
+	}
+
+	.column {
+		flex: 33.33%;
+		padding: 5px;
+	}
+	
+	.description {
+			display: block;
+	}
+</style> 
+</head>
+<body>
+	<div class="header">
+	  <h2>Confucian Aesthetics </h2>
+		<p style="font-size: 24px;"> Lauren Soherr • Samantha Chan </p>
+	</div>
+	<div class="topnav">
+	  <a href="home.html"> I - Introduction to Confucian Aesthetics </a>
+		<div class="dropdown">
+			<a href="virtual.html" class="dropButton"> II - A Virtual Confucian House</a>
+			<div class="dropdownContent">
+				<a href="work.html">Work Area</a>
+				<a href="bedroom.html">Bedroom</a>
+				<a href="sitting.html">Sitting Area</a>
+				<a href="shrine.html">Shrine Room</a>
+			</div>
+		</div>
+  	<a href="choson.html">III - Confucian Craft in the Choson Dynasty</a>
+	</div>
+	<div class="content">
+		<div class="body-content">
+	  <h3> II - A Virtual Confucian House </h3>
+		<h1 style="text-align: center;"> Work Area </h1>
+	  <div class="container">
+		  <img src="work.jpg" alt="blueprint" usemap="#housemap" width="699" height="523">
+		</div> <p>
+		Education has always been an important topic in Confucianism. Ever since Mencius’ time, it was believed that to form a good state is to focus on the welfare of its people, and to achieve that, there must be order, security, wealth, happiness, and education.
+		Furthermore, Zhu Xi’s Confucianism teachings were used in the imperial civil service examinations, which tested people's understanding of Confucian texts.
+		The furniture that is placed in this study room was built to remind us of the importance of being a ‘gentleman’ and upright in a Confucian society.
+		</p>
+		<div class="main-content">
+			<h4> Desk Space </h4>
+		</div>
+			<div class="row">
+				<div class="column">
+					<img src="desk.jpg" style="width:100%">
+				</div>
+				<div class="column">
+					<img src="chair.jpg" style="width:60%">
+				</div>
+				<div class="column">
+					<img src="studycabinet.jpg" style="width:50%">
+				</div>
+			</div>
+		<div class="caption"> From left to right: A desk, an upright desk chair, and a shelf. </div> <br> 
+		These three furnitures shown above are all built upright and straight, none are curved or unbalanced in any way. The purpose of this structural design is to promote the idea of a proper gentleman. Each one is symmetrical and stable, and the design remains simple. It can be seen as Confucian influenced designs due to the simplistic style that many objects from Confucian societies had.
+		<div class="main-content">
+			<h4> Desk Space </h4>
+		<img src="calligraphy.jpg" class="center" style="max-width: 30%;">
+		<p> Although not a furniture piece, calligraphy is frequently practiced in work rooms and it is an activity that is often seen in Confucian societies. Not only should furniture be upright and symmetrical, calligraphy with upright lettering is also an important practice. It was said that “a written character should stand balanced on all four sides . . . Leaning or standing upright like a proper gentleman, the upper half of the character sits comfortably, while the bottom half supports it.” 	</p>
+		</div>
+	</div>
+</div>
+	<div class="block"> 
+	<a href="virtual.html"> Back to Map </a> </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mainstyle.css">
+<style type="text/css">
+.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+	text-align: center;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+	<div class="header">
+	  <h2> Confucian Aesthetics </h2>
+		<p style="font-size: 24px;"> Lauren Soherr • Samantha Chan </p>
+	</div>
+	<div class="topnav">
+	  <a href="home.html"> I - Introduction to Confucian Aesthetics </a>
+		<div class="dropdown">
+			<a href="virtual.html" class="dropButton"> II - A Virtual Confucian House</a>
+			<div class="dropdownContent">
+				<a href="work.html">Work Area</a>
+				<a href="bedroom.html">Bedroom</a>
+				<a href="sitting.html">Sitting Area</a>
+				<a href="shrine.html">Shrine Room</a>
+			</div>
+		</div>
+	  <a href="choson.html">III - Confucian Craft in the Choson Dynasty</a>
+	</div>
+	<div class="content">
+		<div class="body-content">
+	  <h3> IV - Bibliography</h3>
+	  	<p> Visual sources taken from the Boston Museum of Fine Arts. Asia Collections: https://collections.mfa.org/collections/449580/asichinese-collection-highlights;jsessionid=AF5B1179837AD74F82629EEEC1E38A72/objects 
+			</p>
+		</div>
+	</div>
+</body>
+</html>

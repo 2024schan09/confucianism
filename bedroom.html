@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mainstyle.css">
+<style type="text/css">
+	/* Container needed to position the button. Adjust the width as needed */
+	.container {
+	  width: 40%;
+	  overflow: hidden;
+	  position: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+	}
+	/* Three image containers (use 25% for four, and 50% for two, etc) */
+	.column {
+		float: left;
+		width: 25%;
+		padding: 5px;
+	}
+
+	/* Clear floats after image containers */
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	.row {
+		/* display: flex; */
+		display: flex;
+    justify-content: center;
+	}
+
+	.column {
+		flex: 33.33%;
+		padding: 5px;
+	}
+</style> 
+</head>
+<body>
+	<div class="header">
+	  <h2>Confucian Aesthetics</h2>
+		<p style="font-size: 24px;"> Lauren Soherr • Samantha Chan </p>
+	</div>
+	<div class="topnav">
+	  <a href="home.html"> I - Introduction to Confucian Aesthetics </a>
+		<div class="dropdown">
+			<a href="virtual.html" class="dropButton"> II - A Virtual Confucian House</a>
+			<div class="dropdownContent">
+				<a href="work.html">Work Area</a>
+				<a href="bedroom.html">Bedroom</a>
+				<a href="sitting.html">Sitting Area</a>
+			</div>
+		</div>
+	  <a href="choson.html">III - Confucian Craft in the Choson Dynasty</a>
+		<a href="biblio.html">IV - Bibliography</a>
+	</div>
+	<div class="content">
+		<div class="body-content">
+	  <h3> II - A Virtual Confucian House </h3>
+		<h1 style="text-align: center;"> Bedroom </h1>
+	  <div class="container">
+		  <img src="bedroom.jpg" alt="blueprint" usemap="#housemap" width="699" height="523">
+		</div> <p>
+		  Here in the bedroom of the Confucian house, most of the furniture is built with a cuboid shape. It represents the emphasis on uprightness and obtaining Dao, the moral Way.
+			These furniture are structured to be upright, balanced, symmetrical, and importantly, cuboid. If a piece is not cuboid, it will fail to satisfy uprightness and stability. Therefore, a gentleman “should pursue uprightness, regularity, and stability to obtain the body of the Dao. ‘In the universe, what’s central, upright, and regular are good; and what are eccentric, oblique, and partial are bad.’”. In having a large, spatial furniture to rest, a gentleman can remain upright, and “his mind rests at where it should rest. ‘The great man is steadfast and peaceful. “He who is steadfast and peaceful is a sage.”’ <br> <br>
+		</p>
+		<div class="row">
+		  <div class="column">
+		    <img src="bed.jpg" style="width:90%">
+		  </div>
+		  <div class="column">
+		    <img src="couch.jpg" style="width:100%">
+		  </div>
+		  <div class="column">
+		    <img src="rack.jpg" style="width:90%">
+		  </div>
+			<div class="column">
+		    <img src="cabinet.jpg" style="width:70%">
+		  </div>
+		</div>
+		<div class="caption"> From left to right: A canopy bed, a couch bed, a clothes rack, and a cabinet. </div> <br> 
+		While it may seem redundant to place two types of beds in one room, the couch bed can be used as an additional sitting or resting place in the room. As mentioned earlier, a gentleman should have a large space to rest. It would allow his mind to rest and be at peace. Once he reaches a peaceful state, he can easily maintain uprightness, follow the five Virtues, and pursue the moral Way. As with the rest of the furniture in the house, the structural design of the furniture in the bedroom remain consistent: it is symmetrical, upright, and even. <br> <br>
+		</div>
+	</div>
+	<div class="block"> 
+	<a href="virtual.html"> Back to Map </a> </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mainstyle.css">
+<style type="text/css">
+.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+	text-align: center;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+	<div class="header">
+	  <h2> Confucian Aesthetics </h2>
+		<p style="font-size: 24px;"> Lauren Soherr • Samantha Chan </p>
+	</div>
+	<div class="topnav">
+	  <a href="home.html"> I - Introduction to Confucian Aesthetics </a>
+		<div class="dropdown">
+			<a href="virtual.html" class="dropButton"> II - A Virtual Confucian House</a>
+			<div class="dropdownContent">
+				<a href="work.html">Work Area</a>
+				<a href="bedroom.html">Bedroom</a>
+				<a href="sitting.html">Sitting Area</a>
+				<a href="shrine.html">Shrine Room</a>
+			</div>
+		</div>
+	  <a href="choson.html">III - Confucian Craft in the Choson Dynasty</a>
+	</div>
+	<div class="content">
+		<div class="body-content">
+	  <h3> III - Confucian Craft in the Choson Dynasty</h3>
+	  <p> In Korea, adoption of Chinese practices and Confucius thought carried over into the borrowing of Chinese craft. Historian Robert Finlay claims “Choson Korea (1392-1897) developed into a more single-minded Confucian regime than China itself,” indicating Korea’s strong adherence to Confucianism also seen in its ceramics culture. </p>
+		<p> Confucian notions of frugality and simplicity were represented in Choson Korean pottery styles. Among Korean elites, practical ceramics like white porcelains and punch’ong (powder blue) vessels gained prominence. This minimalist style is seen in the ceramic pieces below dated to the Choson period: </p>
+		<div class="row">
+		  <div class="column">
+		    <img src="moon.jpg" style="width:80%">
+		  </div>
+		  <div class="column">
+		    <img src="bowl.jpg" style="width:80%">
+		  </div>
+		  <div class="column">
+		    <img src="cup.jpg" style="width:80%">
+		  </div>
+		</div>
+		<div class="caption">
+			Left: Moon Jar, Moon Jar. Joseon Dynasty, early 18th century. White porcelain. The simple and asymmetrical form of this jar represents the Confucian styles popularized in Choson Korea.
+			<p>Middle: Ritual bowl, Joeseon Dynasty, 17th century, white porcelain. This bowl demonstrates how undecorated porcelain served as a symbol of restraint, integrity and humility in ceramic arts taking after Confucian values.
+			</p><p>Right: Cup with two handles, Joeseon Dynasty, late 15th century, white porcelain. This cup would be used in Confucian rituals of ancestor worship. 
+			</p>
+		</div>
+		<p> Comparing Ming and Qing era homeware and ritual objects to the corresponding Choson items reveals the spread of Confucianism in East Asia. In fact, Korean ceramics were revered by Chinese connoisseurs and they were often gifts made to Chinese leaders. </p>
+		<p> However, not all Koreans aligned with Chinese ideals. Some elites questioned the cultural hegemony of China and argued that Korean artistic creations originated in Korea and should not be considered products of Chinese influence. This sentiment was vocalized by King Chongjo in a memorandum he issued in 1789, where he stated: </p>
+		<p style="margin-left: 50px; margin-right: 50px;"> “Lately, the fashion of the literati class has become most bizarre. They disregard the rules and standards of our nation and try to emulate the trends in remote China. They seek not only books but also everyday articles made in China. [It appears] they compete to be elegant and lofty by using only those items. Surrounded by exotic objects such as miniature screens, brush holders, chairs, tables, bronze vessels, wine cups, jugs, they drink tea and burn incense.” </p>
+		<p> This quote reveals the broad penetration of Chinese custom into Choson society and the nationalist responses it provoked from members of the Korean gentry. Nevertheless, King Chongjo makes reference to household items reinforcing their role as couriers of Confucian inspired culture in East Asia. <p>
+		</div>
+	</div>
+	<!-- <div class="block">  -->
+	<!-- <a href="biblio.html"> Bibliographies </a> </div> -->
+</body>
+</html>
