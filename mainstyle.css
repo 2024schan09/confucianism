@@ -8,18 +8,20 @@ body {
   background-color: #f1f1f1;
   padding: 4px;
   text-align: center;
+
 }
 
 .topnav {
   overflow: hidden;
   background-color: #333;
+
 }
 
 .topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 89.3px;
+  padding: 14px 89px;
   text-decoration: none;
   font-size: 20px;
   text-align:center;
@@ -105,14 +107,14 @@ h6 {
 .dropdownContent {
   display: none; /* Hides the drop down menu until hovered */
   background-color: #f2f2f2; /* Change to website color theme accordingly */
-  min-width: 89.3px; /* The width of the dropdown menu */
+  min-width: 113px; /* The width of the dropdown menu */
   margin-top: 50px
 }
 
 .dropdownContent a {
   float: none; /* To list the menu content vertically, not horizontally like nav bar */
   color: #333; /* Change to website color theme accordingly */
-  padding: 12px 161px;
+  padding: 12px 160px;
   display: block;
 }
 
