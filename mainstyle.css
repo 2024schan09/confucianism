@@ -14,17 +14,17 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
-
 }
 
 .topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 84px;
+  padding: 14px 30px;
   text-decoration: none;
   font-size: 20px;
   text-align:center;
+  overflow: hidden;
 }
 
 h6 {
@@ -114,7 +114,7 @@ h6 {
 .dropdownContent a {
   float: none; /* To list the menu content vertically, not horizontally like nav bar */
   color: #333; /* Change to website color theme accordingly */
-  padding: 12px 155px;
+  padding: 12px 100px;
   display: block;
 }
 
