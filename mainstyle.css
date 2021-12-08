@@ -71,6 +71,21 @@ h6 {
   display: inline-block;
 }
 
+.container {
+  width: 40%;
+  overflow: hidden;
+  position: block;
+  margin-left: auto;
+  margin-right: auto;	
+}
+
+.column {
+  float: left;
+  padding: 5px;
+	text-align: center;
+	flex: 33.33%;
+}
+
 /* Make the image responsive */
 .container img {
   width: 100%;
@@ -83,13 +98,6 @@ h6 {
   margin-right: 200px;
 }
 
-.container {
-  width: 40%;
-  overflow: hidden;
-  position: block;
-  margin-left: auto;
-  margin-right: auto;	
-}
 .dropdown {
   float: left;
 }
@@ -129,4 +137,29 @@ h6 {
   font-style: italic;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.footnotes {
+  font-size: 18px;
+}
+
+.biblio {
+  font-size: 20px;
+}
+
+.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
 }
